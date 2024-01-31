@@ -8,5 +8,8 @@ public class TitForTat extends Player{
     public void remember(boolean opponentChoice){
         choice = opponentChoice;
     }
+    public String toString(){
+        return "TitForTat got: " + this.score();
+    }
 
 }
